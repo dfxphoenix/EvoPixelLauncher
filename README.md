@@ -3,6 +3,6 @@
 npm start
 npm run dist
 
-Windows x64:	npm run dist:win
-macOS:	npm run dist:mac
-Linux: x64	npm run dist:linux
+<p>Windows x64:	npm run dist:win</p>
+<p>macOS:	npm run dist:mac</p>
+<p>Linux: x64	npm run dist:linux</p>
