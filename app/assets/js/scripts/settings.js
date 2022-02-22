@@ -1402,7 +1402,7 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://minecraft.evopixel.ro/launcher/releases.atom',
+        url: 'https://github.com/dfxphoenix/EvoPixelLauncher/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')
